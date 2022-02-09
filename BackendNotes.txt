@@ -1,0 +1,53 @@
+
+--> Express [middleware]
+     > req, res
+     > GET --- purely it will give some data from the server and fetches to the DB.
+     > post -- whatever data sent to the server it will update the server. 
+     > all
+     > Listen --- Gets the request from the port.
+
+--> Mongoose [ObjectDataModel(ODM), ObjectRelationalModel(ORM) ]
+    > local mongodb
+    > compass
+    > mongoose
+    
+--> Authentication Headers
+    > tokens jwt
+    > cors
+    > integration
+
+
+--> get method:
+    parms
+
+--> post method:
+    routers
+
+--> template engines / server side rendering 
+
+**When the data is given/sent to URL which is visible to everyone when you use get method. Thats why we use 
+post method is used as data will not be visible when transfer data using post method.
+
+---------------------------------------------------------------------------------------------------
+1. install express using the "npm install express"
+2. then install package.json using "npm init"
+3. npm install nodemon 
+4. npm install body-parser
+
+---------------------------------------------------------------------------------------------------
+--> Parser is a (body-parser)middleware which will be able to convert or interpret the output to readable format
+    here we are using JSON Parser.
+
+--> SERVERSIDE rendering
+    --  CHECKTHIS 
+
+--> Clientside rendering
+    -- CHECK THIS
+
+--> Template Engines
+    -- Handlebars(HBS)___ npm install hbs
+    
+    Jade
+----------------------------------------------
+left at : 1:26 https://player.vimeo.com/video/672218448
+        29-1-22
